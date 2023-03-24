@@ -159,7 +159,7 @@ fun sendOwnerALetter(vehicle : Vehicle, letter : Letter): SentConfirmation? {
 
 이 기능을 구현하지 않고, 차량 소유자의 주소를 찾기 위한 자세한 로직을 함수 자신이 직접 구현하고 있다.
 
-더 나은 접근법은 소유자의 주솔르 찾는 로직을 다른 함수로 구현하는 것이다. 이렇게 하면 sendOwnerALetter()함수는 보다 이상적인 문장으로 표현할 수 있다
+더 나은 접근법은 소유자의 주소를 찾는 로직을 다른 함수로 구현하는 것이다. 이렇게 하면 sendOwnerALetter()함수는 보다 이상적인 문장으로 표현할 수 있다
 
 ```kotlin
 fun sendOwnerALetter(vehicle : Vehicle, letter : Letter): SentConfirmation? {
@@ -172,7 +172,7 @@ fun sendOwnerALetter(vehicle : Vehicle, letter : Letter): SentConfirmation? {
     return sendLetter(ownersAddress, letter)
 }
 
-// 소유자의 주솔르 찾기 위한 함수 (재사용이 쉽다)
+// 소유자의 주소를 찾기 위한 함수 (재사용이 쉽다)
 private fun getOwnerAddress(vehicle: Vehicle): Address? {
     if (vehicle.hasBeenScraped())
         return SCRAPYARD_ADDRESS
@@ -343,7 +343,7 @@ TextSummarizer 클래스를 살펴보면 몇 초 만에 높은 층위의 알고�
 
 ### 2.3.4 인터페이스 
 
-계층 사이를 뚜렷이 구분하고 구현 세부 사항이 계층 사이에 유출되지 않도록 하기 위해 사용할ㅇ 수 있는 한 가지 접근법은 어떤 함수를 외부로 노출할 것인지를
+계층 사이를 뚜렷이 구분하고 구현 세부 사항이 계층 사이에 유출되지 않도록 하기 위해 사용할 수 있는 한 가지 접근법은 어떤 함수를 외부로 노출할 것인지를
 
 인터페이스를 통해 결정하는 것이다. 그 다음 이 인터페이스에 정의된 대로 클래스가 해당 계층에 대한 코드를 구현한다. 이보다 위에 있는 계층은
 
