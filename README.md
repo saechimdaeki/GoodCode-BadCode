@@ -8,4 +8,6 @@
 
 ### [다른 개발자와 코드 계약](./part01/Chapter03.%20다른%20개발자와%20코드%20계약.md)
 
+### [오류](./part01/Chapter04.%20오류.md)
+
 ![image](https://user-images.githubusercontent.com/40031858/224476994-5ad7758c-66a6-42fe-ae78-002e00f90dfa.png)
