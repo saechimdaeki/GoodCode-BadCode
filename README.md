@@ -18,4 +18,6 @@
 
 ### [코드를 오용하기 어렵게 만들라](./part02/Chapter07.%20%EC%BD%94%EB%93%9C%EB%A5%BC%20%EC%98%A4%EC%9A%A9%ED%95%98%EA%B8%B0%20%EC%96%B4%EB%A0%B5%EA%B2%8C%20%EB%A7%8C%EB%93%A4%EB%9D%BC.md)
 
+### [코드를 모듈화하라](./part02/Chapter08.%20%EC%BD%94%EB%93%9C%EB%A5%BC%20%EB%AA%A8%EB%93%88%ED%99%94%ED%95%98%EB%9D%BC.md)
+
 ![image](https://user-images.githubusercontent.com/40031858/224476994-5ad7758c-66a6-42fe-ae78-002e00f90dfa.png)
