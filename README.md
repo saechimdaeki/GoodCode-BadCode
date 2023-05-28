@@ -20,4 +20,10 @@
 
 ### [코드를 모듈화하라](./part02/Chapter08.%20%EC%BD%94%EB%93%9C%EB%A5%BC%20%EB%AA%A8%EB%93%88%ED%99%94%ED%95%98%EB%9D%BC.md)
 
+### [코드를 재사용하고 일반화할 수 있도록 하라](./part02/Chapter09.%EC%BD%94%EB%93%9C%EB%A5%BC%20%EC%9E%AC%EC%82%AC%EC%9A%A9%ED%95%98%EA%B3%A0%20%EC%9D%BC%EB%B0%98%ED%99%94%ED%95%A0%20%EC%88%98%20%EC%9E%88%EB%8F%84%EB%A1%9D%20%ED%95%98%EB%9D%BC.md)
+
+## PART 3: 단위 테스트
+
+### [단위 테스트의 원칙](./part03/Chapter10.%20%EB%8B%A8%EC%9C%84%20%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%9D%98%20%EC%9B%90%EC%B9%99.md)
+
 ![image](https://user-images.githubusercontent.com/40031858/224476994-5ad7758c-66a6-42fe-ae78-002e00f90dfa.png)
